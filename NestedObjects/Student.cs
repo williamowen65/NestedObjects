@@ -17,6 +17,11 @@ namespace NestedObjects
         public required string LastName { get; set; }
 
         /// <summary>
+        /// The Date of Birth of the student
+        /// </summary>
+        public DateOnly DateOfBirth { get; set; }
+
+        /// <summary>
         /// The assigned school email address
         /// </summary>
         public required string SchoolEmail { get; set; }
@@ -29,6 +34,6 @@ namespace NestedObjects
         /// <summary>
         /// The student's Advisor
         /// </summary>
-        public required Advisor AssignedAdvisor { get; set; }
+        public Advisor AssignedAdvisor { get; set; }
     }
 }
