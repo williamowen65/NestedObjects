@@ -34,6 +34,6 @@ namespace NestedObjects
         /// <summary>
         /// The student's Advisor
         /// </summary>
-        public Advisor AssignedAdvisor { get; set; }
+        public required Advisor AssignedAdvisor { get; set; }
     }
 }
